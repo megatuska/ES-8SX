@@ -1,0 +1,24 @@
+ES-8 SX M4L Audio Device
+
+Connecting:
+to start just drop it on your Guitar track, hit Re-Scan to scan the MIDI ports and select the MIDI port your ES-8 is connected too 
+
+*Important* ES-8 SX Only receives MIDI messages if the track that it's on is armed in LIVE 
+
+MIDI Channel: Selects the MIDI channel you want to send on to of the ES8, by default this will be 1, can be check in the MIDI setting of the ES-8 if unsure
+
+Device ID: Chooses the Device ID of the ES-8, by default this will be 1, can be changed in the 
+
+Program Change:
+
+Turn on the PC Button to enable sending Program Changes from LIVE to your ES-8, once activated then changing the Bank and Patch numboxes will send Program changes.
+
+If the "PC On Arm" button is activated then Program change Messages will send automatically when arming the track in LIVE.
+
+Sysex Messages: 
+
+Store: Pressing the 'Store' button requests a Bulk Dump from the ES-8, the requested patch will be whichever is currently selected in the Bank/Patch numboxes of the Es-8 SX Device, the Bulk Dump will be stored in the device allowing the user to save presets or save with a Live set. the button in the top right corner of the device will flash if successful. 
+
+Dump: Pressing the 'Dump' button will dump the currently stored Bulk Dump of the device to the selected Bank/Patch of the ES-8.
+
+*Important* Bulk Dump will wipe over Patches so be careful to make sure you have the correct bank/patch selected when using.
